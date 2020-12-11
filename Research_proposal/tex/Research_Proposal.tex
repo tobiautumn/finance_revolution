@@ -1,0 +1,109 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} 
+\usepackage[colorlinks=true,linkcolor=black, citecolor=blue, urlcolor=blue, ]{hyperref}
+\usepackage{url}
+\usepackage{eurosym}
+\usepackage{geometry}
+\geometry{a4paper,left=30mm,right=25mm,top=25mm,bottom=25mm}
+\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{lipsum}
+
+% Mathematical Environment 
+\usepackage{amsmath}			% ams (American Mathematical Society) setup for everything related to equations
+\usepackage{amsthm}				% ams setup for theorems
+\usepackage{amssymb}			% ams setup for symbols
+\usepackage{mathtools}
+\usepackage{booktabs}           % Needed to display Latex tables exported from Python
+\usepackage{rotating}           % <-- HERE
+
+\usepackage{listings}
+\usepackage{lettrine}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{setspace} 
+\usepackage{framed} 
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+
+	
+\usepackage{float}
+\usepackage[round]{natbib}
+\bibliographystyle{ecca} 
+
+\newcommand*{\quelle}{% 
+  \footnotesize Source: 
+} 
+
+\usepackage[toc,page]{appendix}
+
+\usepackage{etoolbox}
+\appto\appendix{\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}}
+
+\definecolor{dunkelgruen}{rgb}{0,0.4,0}
+
+\title{Why some penguins breed stones and further fun facts about the greatest animal of all times}
+\author{Tobias Herbst\thanks{tobias.herbst@uni-bonn.de} and Martin Waibel\thanks{martin.waibel@phdstudent.hhs.se} }
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\lipsum[1-1]
+
+
+
+
+\end{abstract}
+
+\pagenumbering{arabic}
+\clearpage
+\section{Motivation \& Research Idea}
+\label{motivation}
+
+
+\section{Data \& Empirical Strategy}
+\label{data_strategy}
+
+\subsection{Data}
+\label{data}
+
+
+
+\subsection{Empirical Strategy}
+\label{emp_strategy}
+
+
+
+
+\section{Questions}
+\label{questions}
+
+
+\clearpage
+
+\section{Appendix}
+
+
+
+\newpage
+\bibliography{literature}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
